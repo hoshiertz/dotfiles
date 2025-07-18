@@ -23,7 +23,7 @@ echo "set ntp..."
 timedatectl set-timezone Asia/Shanghai
 echo "set timezone..."
 
-fdisk /dev/nvme0n1
+# fdisk /dev/nvme0n1
 
 mkfs.fat -F32 /dev/nvme0n1p1
 echo "mkfs fat..."
